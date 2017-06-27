@@ -39,7 +39,7 @@ Copyright 2016 Google Inc.
       <id>selenium</id>
       <properties>
         <callback.method>http</callback.method>       <!-- "http" for local, "https" for the cloud -->
-        <callback.host>localhost:8080</callback.host> <!-- Typically projectname.appspot.com -->
+        <callback.host>tangerine-dev-171912.appspot.com</callback.host> <!-- Typically projectname.appspot.com -->
         <bookshelf.callback>http://localhost:8080/oauth2callback</bookshelf.callback>
       </properties>
       <build>
