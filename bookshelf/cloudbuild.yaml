@@ -1,5 +1,5 @@
 steps:
- name: 'us.gcr.io/tangerine-dev-171912/appengine'
+- name: 'us.gcr.io/tangerine-dev-171912/appengine'
  args:  ['source repos clone Tangerine']
  args:  ['cd', 'getting-started-java/bookshelf/2-structured-data']
  args:  ['mvn', 'appengine:deploy', '-DprojectID=tangerine-dev-171912']
