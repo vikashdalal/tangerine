@@ -1,4 +1,3 @@
-Steps:
 - name: 'gcr.io/cloud-builders/mvn'
   env: ['PROJECT_ROOT=$REPO_NAME']
   
