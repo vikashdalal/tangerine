@@ -1,3 +1,4 @@
+Steps:
 - name: 'gcr.io/cloud-builders/docker'
   env: ['PROJECT_ROOT=$REPO_NAME/getting-started-java/bookshelf/2-structured-data']
   
