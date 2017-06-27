@@ -1,6 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/java/mvn'
-  args: ['install', '.']
   env: ['PROJECT_ROOT'=$REPO_NAME']
   
 - name: 'us.gcr.io/tangerine-dev-171912/appengine/default.20170627t082931:latest'
