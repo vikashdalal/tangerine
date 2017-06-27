@@ -1,10 +1,10 @@
 steps:
 - name: 'gcr.io/cloud-builders/java/mvn'
-  env: ['PROJECT_ROOT'=$REPO_NAME']
+  env: ['PROJECT_ROOT=$REPO_NAME']
   
 - name: 'us.gcr.io/tangerine-dev-171912/appengine/default.20170627t082931:latest'
   args: ['cd', 'getting-started-java/bookshelf/2-structured-data']
-  env: ['PROJECT_ROOT'=$REPO_NAME']
+  env: ['PROJECT_ROOT=$REPO_NAME']
   
 - name: 'us.gcr.io/tangerine-dev-171912/appengine/default.20170627t082931'
   args: ['mvn', 'appengine:deploy', '-DprojectID=tangerine-dev-171912']
